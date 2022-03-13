@@ -42,9 +42,6 @@ def show_intention(attack_id, attacks=pd.read_csv(commands_csv)):
 # **returns**: List[int].
 
 def get_state_mapping_evaluation(prev_state: List[List[int]], current_state: List[List[int]], debug: bool = False):
-    # exploit_file_3x3 = "exploit_3x3"
-    # exploit_file_5x5 = "exploit_5x5"
-    # set_file_5x5 = "set_5x5"
     exploit_file_3x3 = os.getenv('EXPLOIT_3x3')
     exploit_file_5x5 = os.getenv('EXPLOIT_5x5')
     set_file_5x5 = os.getenv('SET_5x5')
