@@ -1,7 +1,7 @@
 # A Trained Adversarial AI Competitor (aTaac)
 
 The aTaac system was developed as part of research conducted on automated penetration testing 
-at Johns Hopkins University by Samra Kasim, Nawal Valliani, Nelson Ka Ki Wong, and Shahin Samadi.
+at Johns Hopkins University by [Samra Kasim](https://github.com/skasim/aTaac), [Nawal Valliani](https://github.com/nawalvalliani), [Nelson Ka Ki Wong](https://github.com/trace86), and Shahin Samadi.
 
 The system utilizes Alpha-Beta Minimax and DNN for AI gameplay. The former code is based on code from the repo by 
 [Clederson Cruz](https://github.com/Cledersonbc/tic-tac-toe-minimax) and the DNN was developed based on code by 
