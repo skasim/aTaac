@@ -142,17 +142,17 @@ dmypy.json
 .pyre/
 
 # state mapping i/o
-aTac/io/*.txt
+aTaac/io/*.txt
 
 # pickle file
-aTac/io/attack_ports/*.pickle
+aTaac/io/attack_ports/*.pickle
 
 # nmap
-aTac/io/nmap/*.xml
+aTaac/io/nmap/*.xml
 
 # training files
-aTac/io/training_3x3/*.pickle
-aTac/io/training_5x5/*.pickle
+aTaac/io/training_3x3/*.pickle
+aTaac/io/training_5x5/*.pickle
 
 # log files
-aTac/io/container_moves/*.log
+aTaac/io/container_moves/*.log

@@ -1,24 +1,23 @@
-# AlphaToe Neural Networks - Tic Tac Toe AI
+# A Trained Adversarial AI Competitor (aTaac)
 
-The neural networks for 3x3 and 5x5 Tic Tac Toe (AlphaToe3 and AlphaToe5, respectively :nail_care:) have already been trained. 
+The aTaac system was developed as part of research conducted on automated penetration testing 
+at Johns Hopkins University by Samra Kasim, Nawal Valliani, Nelson Ka Ki Wong, and Shahin Samadi.
 
-AlphaToe3 has been trained for 100 epochs on a dataset of 1 million randomly played tic tac toe games and results in a 68% validation accuracy.
+The system utilizes Alpha-Beta Minimax and DNN for AI gameplay. The former code is based on code from the repo by 
+[Clederson Cruz](https://github.com/Cledersonbc/tic-tac-toe-minimax) and the DNN was developed based on code by 
+[Daniel Sauble](https://github.com/djsauble/tic-tac-toe-ai)
 
-AlphaToe5 has been trained for 1000 epochs on a dataset of 100,000 randomly played tic tac toe games and results in a 57% validation accuracy. AlphaToe5 uses a neural network very similar in structure to AlphaToe3, but with the number of nodes and fraction of dropout nodes in some layers slightly increased to account for the larger game state of 5x5 tic tac toe vs. 3x3 tic tac toe.
-
-The source code upon which aTac has been developed originates from Daniel Sauble - https://github.com/djsauble/tic-tac-toe-ai
-
-## Running aTac
+## Running aTaac
 To run game simulations:
 * Clone this repo
-* In `aTac` directory, create a `.env` file populated as below
+* In `aTaac` directory, create a `.env` file populated as below
 ```.env
 # Key Files
 PORTSCAN_XML="nmap/portscan_out.xml"
 ATTACK_PORTS_PK = "attack_ports/attack_ports.pickle"
 COMMANDS_CSV="vulnerability_execute/commands2.csv"
 VULNERABILITY_SCRIPTS_DIR = "vulnerability_scripts"
-ROOT_PATH = "/opt/capstone/jhu-aai/aTac/io"
+ROOT_PATH = "/opt/capstone/jhu-aai/aTaac/io"
 GAMEPLAY_5x5 = "gameplay/output_5x5.csv"
 GAMEPLAY_3x3 = "gameplay/output_3x3.csv"
 # Game Parameters
@@ -50,8 +49,8 @@ EXPERIMENT_NUM_GAMES=1
 ## Running with Docker
 To run code in Docker
 * Clone this repo
-* Add `.env` file to `aTac` directory, see above for content
+* Add `.env` file to `aTaac` directory, see above for content
 * Update volume path to your local machine in `docker-compose.yml`
 * Run `docker-compose up`
-* Run `docker exec -it $container_name` and `cd` to `/opt/capstone/jhu-aai/aTac` directory and run `python init_game.py`
+* Run `docker exec -it $container_name` and `cd` to `/opt/capstone/jhu-aai/aTaac` directory and run `python init_game.py`
 
