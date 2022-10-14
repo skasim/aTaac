@@ -7,6 +7,40 @@ The system utilizes Alpha-Beta Minimax and DNN for AI gameplay. The former code 
 [Clederson Cruz](https://github.com/Cledersonbc/tic-tac-toe-minimax) and the DNN was developed based on code by 
 [Daniel Sauble](https://github.com/djsauble/tic-tac-toe-ai)
 
+
+
+## Citation Request
+aTaac is available for research use under GNU Public License. If utilizing aTaac code or its derivative resources, please cite the following:
+
+> S. Kasim, N. Valliani, N. K. K. Wong, S. Samadi, L. Watkins, and A. Rubin, “Cybersecurity as a Tic-Tac-Toe Game Using Autonomous Forwards (Attacking) And Backwards (Defending) Penetration Testing in a Cyber Adversarial Artificial Intelligence System,” 2022.
+> S. Kasim, N. Valliani, N. K. K. Wong, and S. Samadi, aTaac: A Trained Adversarial AI Competitor system. 2022. [Online]. Available: https://github.com/skasim/aTaac
+
+Bibtex:
+```
+@inproceedings{KasimEtAl2022,
+  author = {Samra Kasim and 
+            Nawal Valliani and 
+            Nelson Ka Ki Wong and 
+            Shahin Samadi and
+            Lanier Watkins and
+            Aviel Rubin},
+    title = {{C}ybersecurity as a {T}ic-{T}ac-{T}oe {G}ame {U}sing
+            {A}utonomous {F}orwards ({A}ttacking) {A}nd {B}ackwards ({D}efending) {P}enetration {T}esting in a {C}yber {A}dversarial {A}rtificial {I}ntelligence {S}ystem},
+    year = {2022},
+    booktitle = {2022 IEEE  International Conference of SNIKOM, Laguboti, Sumatera Utara, Indonesia}
+}
+
+@misc{aTaacCode,
+  author = {Samra Kasim and 
+            Nawal Valliani and 
+            Nelson Ka Ki Wong and 
+            Shahin Samadi},
+    title = {a{T}aac: {A} {T}rained {A}dversarial {AI} {C}ompetitor system},
+    year = {2022},
+    url = {https://github.com/skasim/aTaac},
+}
+```
+
 ## Running aTaac
 To run game simulations:
 * Clone this repo
