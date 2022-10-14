@@ -13,6 +13,7 @@ The system utilizes Alpha-Beta Minimax and DNN for AI gameplay. The former code 
 aTaac is available for research use under GNU Public License. If utilizing aTaac code or its derivative product(s), please cite the following:
 
 > S. Kasim, N. Valliani, N. K. K. Wong, S. Samadi, L. Watkins, and A. Rubin, “Cybersecurity as a Tic-Tac-Toe Game Using Autonomous Forwards (Attacking) And Backwards (Defending) Penetration Testing in a Cyber Adversarial Artificial Intelligence System,” 2022.
+
 > S. Kasim, N. Valliani, N. K. K. Wong, and S. Samadi, aTaac: A Trained Adversarial AI Competitor system. 2022. [Online]. Available: https://github.com/skasim/aTaac
 
 Bibtex:
